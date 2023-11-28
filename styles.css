@@ -1,0 +1,29 @@
+body{
+    background-image: url("/ceu.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+.titulo{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.confirmar{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.confirmar:hover{
+    background-color: gray;
+}
+
+div{
+    display: block;
+    background-color: aliceblue;
+    margin: 0 auto;
+    width: 35%;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid rgb(165, 168, 255);
+}
